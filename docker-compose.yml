@@ -1,0 +1,13 @@
+# version: '3'
+
+services:
+  python:
+    # env_file:
+    #   - ./.env/localdev.env
+    build:
+      context: .
+    tty: true
+    volumes:
+      - "./src:/app/"
+
+

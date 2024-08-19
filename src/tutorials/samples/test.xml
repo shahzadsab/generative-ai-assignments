@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<person>
+  <firstname>Shahzad</firstname>
+  <lastname>Bhatti</lastname>
+  <home>Lahore</home>
+  <skill name="JavaScript"/>
+  <skill name="Python"/>
+  <skill name="NodeJs"/>
+  <skill name="Php"/>
+</person>

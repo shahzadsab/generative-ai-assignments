@@ -13,7 +13,7 @@ def main():
     # print(logging.__file__)    
     # logging.basicConfig(level=logging.DEBUG,
     #                     filemode="w",
-    #                     filename="output.log")
+    #                     filename="samples/output.log")
     
     fmtStr = "%(asctime)s: %(levelname)s: %(funcName)s Line:%(lineno)d User:%(user)s %(message)s"
     dateStr = "%m/%d/%Y %I:%M:%S %p"

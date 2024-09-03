@@ -7,5 +7,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
-CMD ["/bin/sh"]
+EXPOSE 8000
+
+CMD ["uvicorn", "tutorials.fastapi.first:app", "--reload", "--host=0.0.0.0"]
 

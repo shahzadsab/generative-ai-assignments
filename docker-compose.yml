@@ -6,8 +6,15 @@ services:
     #   - ./.env/localdev.env
     build:
       context: .
+    ports:
+      - "8000:8000"
+    # networks:
+    #   - myapp
     tty: true
     volumes:
       - "./src:/app/"
 
-
+# networks:
+#   myapp:
+#     driver: bridge
+#     # external : true

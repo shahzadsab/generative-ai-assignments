@@ -9,5 +9,5 @@ COPY . .
 
 EXPOSE 8000
 
-CMD ["uvicorn", "tutorials.fastapi.first:app", "--reload", "--host=0.0.0.0"]
+CMD ["uvicorn", "tutorials.fastapi.crud:app", "--reload", "--host=0.0.0.0"]
 
